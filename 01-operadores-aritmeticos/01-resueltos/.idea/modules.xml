@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/01-resueltos.iml" filepath="$PROJECT_DIR$/.idea/01-resueltos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_01_Bienvenida/_01_Bienvenida.iml" filepath="$PROJECT_DIR$/_01_Bienvenida/_01_Bienvenida.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02_ExpresionMatematica/_02_ExpresionMatematica.iml" filepath="$PROJECT_DIR$/_02_ExpresionMatematica/_02_ExpresionMatematica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_ConvertirVelocidad/_03_ConvertirVelocidad.iml" filepath="$PROJECT_DIR$/_03_ConvertirVelocidad/_03_ConvertirVelocidad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04_PromedioNotas/_04_PromedioNotas.iml" filepath="$PROJECT_DIR$/_04_PromedioNotas/_04_PromedioNotas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05_PrecioConDescuento/_05_PrecioConDescuento.iml" filepath="$PROJECT_DIR$/_05_PrecioConDescuento/_05_PrecioConDescuento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_PuntajeFinal/_06_PuntajeFinal.iml" filepath="$PROJECT_DIR$/_06_PuntajeFinal/_06_PuntajeFinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_07_ConversionTemperatura/_07_ConversionTemperatura.iml" filepath="$PROJECT_DIR$/_07_ConversionTemperatura/_07_ConversionTemperatura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08_ConversionEstatura/_08_ConversionEstatura.iml" filepath="$PROJECT_DIR$/_08_ConversionEstatura/_08_ConversionEstatura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_09_FuncionXY/_09_FuncionXY.iml" filepath="$PROJECT_DIR$/_09_FuncionXY/_09_FuncionXY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10_CuadradoSuma/_10_CuadradoSuma.iml" filepath="$PROJECT_DIR$/_10_CuadradoSuma/_10_CuadradoSuma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_11_ConversionMoneda/_11_ConversionMoneda.iml" filepath="$PROJECT_DIR$/_11_ConversionMoneda/_11_ConversionMoneda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_12_DistribucionPresupuesto/_12_DistribucionPresupuesto.iml" filepath="$PROJECT_DIR$/_12_DistribucionPresupuesto/_12_DistribucionPresupuesto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_13_DivisionDinero/_13_DivisionDinero.iml" filepath="$PROJECT_DIR$/_13_DivisionDinero/_13_DivisionDinero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_14_CalificacionFinal/_14_CalificacionFinal.iml" filepath="$PROJECT_DIR$/_14_CalificacionFinal/_14_CalificacionFinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_15_TotalHoras/_15_TotalHoras.iml" filepath="$PROJECT_DIR$/_15_TotalHoras/_15_TotalHoras.iml" />
+    </modules>
+  </component>
+</project>
