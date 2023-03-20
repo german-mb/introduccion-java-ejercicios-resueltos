@@ -29,7 +29,7 @@ public class CalculadoraOperaciones {
                 break;
             case 'd':
                 if (b == 0) {
-                    System.out.println("No se pudo efectuar la division");
+                    System.out.println("Error en la division");
                 } else {
                     System.out.println(a + " / " + b + " = " + (a / b));
                 }

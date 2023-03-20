@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class AdivinarNumero {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        String titulo = "\n\tADIVINA EL NUMERO ENTRE 1 - 100\n";
+        String titulo = "\n\tADIVINA EL NUMERO ENTRE 1 - 100";
         int aleatorio, numero = 0, intentos = 0;
         System.out.println(titulo);
         aleatorio = (int) (Math.random() * 100 + 1);

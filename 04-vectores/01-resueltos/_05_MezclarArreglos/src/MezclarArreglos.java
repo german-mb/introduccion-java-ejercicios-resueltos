@@ -6,34 +6,34 @@ import java.util.Scanner;
 public class MezclarArreglos {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        int arregloA[], arregloB[], arregloC[], numero, posA = 0, posB = 0;
-        arregloA = new int[5];
-        arregloB = new int[5];
-        arregloC = new int[10];
+        int arregA[], arregB[], arregC[], num, posA = 0, posB = 0;
+        arregA = new int[3];
+        arregB = new int[3];
+        arregC = new int[6];
         System.out.println("Ingrese valores para arreglo A");
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.print("Posicion " + (i + 1) + ": ");
-            numero = teclado.nextInt();
-            arregloA[i] = numero;
+            num = teclado.nextInt();
+            arregA[i] = num;
         }
         System.out.println("Ingrese valores para arreglo B");
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.print("Posicion " + (i + 1) + ": ");
-            numero = teclado.nextInt();
-            arregloB[i] = numero;
+            num = teclado.nextInt();
+            arregB[i] = num;
         }
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 6; i++) {
             if (i % 2 == 0) {
-                arregloC[i] = arregloA[posA];
+                arregC[i] = arregA[posA];
                 posA++;
             } else {
-                arregloC[i] = arregloB[posB];
+                arregC[i] = arregB[posB];
                 posB++;
             }
         }
         System.out.println("\tARREGLO C");
-        for (int i = 0; i < 10; i++) {
-            System.out.print(arregloC[i] + " ");
+        for (int i = 0; i < 6; i++) {
+            System.out.print(arregC[i] + " ");
         }
     }
 }

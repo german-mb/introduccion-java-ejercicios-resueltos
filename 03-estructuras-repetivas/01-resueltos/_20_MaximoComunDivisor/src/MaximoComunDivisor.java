@@ -5,6 +5,12 @@ import java.util.Scanner;
  */
 public class MaximoComunDivisor {
     public static void main(String[] args) {
+        int[] numero = new int[4];
+        numero[0] = 5;
+        numero[1] = 59;
+        numero[2] = 23;
+        numero[3] = 2;
+        numero[4] = -2;
         Scanner teclado = new Scanner(System.in);
         int num1, num2, mcd = 0, aux, r;
         System.out.print("Ingrese un numero: ");
@@ -29,3 +35,4 @@ public class MaximoComunDivisor {
         }
     }
 }
+

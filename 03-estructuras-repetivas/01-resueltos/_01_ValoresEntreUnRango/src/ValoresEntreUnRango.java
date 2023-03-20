@@ -10,6 +10,7 @@ public class ValoresEntreUnRango {
         System.out.println("Digite dos valores: ");
         valor1 = teclado.nextInt();
         valor2 = teclado.nextInt();
+        System.out.print("--------");
         if (valor1 > valor2) {
             System.out.println("");
             while (valor2 <= valor1) {

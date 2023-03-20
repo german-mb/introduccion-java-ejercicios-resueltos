@@ -11,7 +11,8 @@ public class TablaDeMultiplicar {
         numero = teclado.nextInt();
         if (numero > 0 && numero <= 10) {
             for (int i = 1; i <= 10; i++) {
-                System.out.println(numero + " * " + i + " = " + numero * i);
+                System.out.println(numero + " * "
+                        + i + " = " + numero * i);
             }
         } else {
             System.out.println("Numero fuera de rango");

@@ -11,7 +11,8 @@ public class SecuenciaCollatz {
         num = scanner.nextInt();
         while (num != 1) {
             pasos++;
-            for (int i = 0; i < num; i++) System.out.print("*");
+            for (int i = 0; i < num; i++)
+                System.out.print("*");
             System.out.println(" " + num);
             if (num % 2 == 0) {
                 num /= 2;

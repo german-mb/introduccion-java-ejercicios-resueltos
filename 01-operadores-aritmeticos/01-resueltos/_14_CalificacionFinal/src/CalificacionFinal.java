@@ -15,7 +15,10 @@ public class CalificacionFinal {
         parcial2 = teclado.nextFloat();
         System.out.print("Nota Examen Final: ");
         examen_final = teclado.nextFloat();
-        nota_final = (participacion * .10) + (parcial1 * .25) + (parcial2 * .25) + (examen_final * .40);
+        nota_final = (participacion * .10)
+                + (parcial1 * .25)
+                + (parcial2 * .25)
+                + (examen_final * .40);
         System.out.println("Nota final: " + nota_final);
     }
 

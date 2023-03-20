@@ -12,6 +12,7 @@ public class Factorial {
         for (int i = 1; i <= numero; i++) {
             factorial *= i;
         }
-        System.out.println("El factorial de " + numero + " es " + factorial);
+        System.out.println("El factorial de "
+                + numero + " es " + factorial);
     }
 }

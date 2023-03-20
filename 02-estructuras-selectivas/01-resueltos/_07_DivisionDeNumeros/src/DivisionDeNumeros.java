@@ -11,7 +11,7 @@ public class DivisionDeNumeros {
         a = teclado.nextDouble();
         b = teclado.nextDouble();
         if (b == 0) {
-            System.out.println("El divisor tiene que ser distinto de 0");
+            System.out.println("El divisor debe ser distinto de 0");
         } else {
             System.out.println(a + " / " + b + " = " + a / b);
         }

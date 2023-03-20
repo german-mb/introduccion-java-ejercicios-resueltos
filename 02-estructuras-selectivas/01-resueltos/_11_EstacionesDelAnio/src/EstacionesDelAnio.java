@@ -12,14 +12,18 @@ public class EstacionesDelAnio {
         dia = teclado.nextInt();
         System.out.print("Digite los meses entre 1 - 12: ");
         mes = teclado.nextInt();
-        String s = (dia >= 21 && dia <= 30 && (mes >= 3 && mes < 6)) || (dia < 21 && (mes > 3 && mes <= 6))
+        String s = (dia >= 21 && dia <= 30 && (mes >= 3 && mes < 6))
+                || (dia < 21 && (mes > 3 && mes <= 6))
                 ? estacion = "OTONIO"
-                : (dia >= 21 && dia <= 30 && mes >= 6 && mes < 9) || (dia < 21 && (mes > 6 && mes <= 9))
+                : (dia >= 21 && dia <= 30 && mes >= 6 && mes < 9)
+                || (dia < 21 && (mes > 6 && mes <= 9))
                 ? estacion = "INVIERNO"
-                : (dia >= 21 && dia <= 30 && (mes >= 9 && mes < 12)) || (dia < 21 && (mes > 9 && mes <= 12))
+                : (dia >= 21 && dia <= 30 && (mes >= 9 && mes < 12))
+                || (dia < 21 && (mes > 9 && mes <= 12))
                 ? estacion = "PRIMAVERA"
-                : (dia >= 21 && dia <= 30 && mes == 12 && mes == 12) ||
-                (dia < 21 && mes <= 3 || dia >= 21 && dia <= 30 && mes < 3)
+                : (dia >= 21 && dia <= 30 && mes == 12 && mes == 12)
+                || (dia < 21 && mes <= 3
+                || dia >= 21 && dia <= 30 && mes < 3)
                 ? estacion = "VERANO"
                 : "";
         System.out.println(estacion);

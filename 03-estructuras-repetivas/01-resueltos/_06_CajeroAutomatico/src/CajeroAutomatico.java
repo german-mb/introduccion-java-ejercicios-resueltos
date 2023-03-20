@@ -21,7 +21,7 @@ public class CajeroAutomatico {
             opcion = teclado.nextInt();
             switch (opcion) {
                 case 1:
-                    System.out.print("DIGITE EL MONTO A DEPOSITAR: ");
+                    System.out.print("MONTO A DEPOSITAR: ");
                     movimiento = teclado.nextInt();
                     if (movimiento > 0) {
                         saldo += movimiento;
